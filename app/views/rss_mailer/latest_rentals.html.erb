@@ -1,8 +1,0 @@
-<% @rentals.each do |rental| %>
-  <% link_to "https://rent.591.com.tw/rent-detail-#{rental.id}.html" do %>
-    <div>
-      <%= image_tag rental.cover %>
-      <h2><%= "#{rental.address} | #{rental.price} | #{rental.kind_name}" %></h2>
-      <p><%= "#{rental.area} 坪 | #{rental.floorInfo}" %></p>
-    </div>
-  <% end %>

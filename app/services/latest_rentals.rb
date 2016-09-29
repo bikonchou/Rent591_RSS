@@ -3,7 +3,7 @@ require 'rest-client'
 class LatestRentals
 
   def initialize
-    @subscription = Subscription.last    
+    @subscription = Subscription.last
   end
 
   def call

@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'rent591_rss@bikonlab.com'
+  default from: 'chou.aaron@tarokosoftware.com'
   layout 'mailer'
 end
